@@ -1,6 +1,6 @@
 # Databricks notebook source
 # MAGIC %md
-# MAGIC ### Ingest races.csv file
+# MAGIC ### Ingest Races.csv file
 
 # COMMAND ----------
 
