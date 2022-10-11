@@ -76,7 +76,7 @@ races_final_df = races_renamed_df.select(col("race_id"), col("race_year"),col("r
 
 # COMMAND ----------
 
-races_final_df.write.mode("overwrite").parquet("/mnt/formuladluche/processed/races")
+races_final_df.write.mode("overwrite").partitionBy("race_year").parquet("/mnt/formuladluche/processed/races")
 
 # COMMAND ----------
 
