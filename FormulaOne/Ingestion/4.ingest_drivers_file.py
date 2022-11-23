@@ -1,5 +1,5 @@
 # Databricks notebook source
-# MAGIC %md # Ingest drivers.json file
+# MAGIC %md # Ingest drivers.json file - Nested JSON
 
 # COMMAND ----------
 
